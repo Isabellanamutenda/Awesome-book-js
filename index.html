@@ -9,21 +9,26 @@
 </head>
 <body>
 
-  <h1>Awesome books</h1>   
-   <p>Loremipsum <br>Testeroo Testyy</p>   
-  <input type="submit" value="Remove">  
-  <hr>    
-  <p>Second book <br>Testeroo Testyy</p>    
-  <input type="submit" value="Remove">  
-   <hr>
-  <form action="">
-    <label for="fname"></label><br>
-    <input type="text" id="fname" name="fname" placeholder="John"><br>
-    <label for="lname"></label><br>
-    <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+  <h1>Awesome books</h1>
+
+  <form action="" id="book-form">
+    <div>
+      <label for="title"></label>
+      <input type="text" id="title" placeholder="Tittle">
+    </div>
+    <br>
+    <div>
+      <label for="author"></label>
+      <input type="text" id="author" placeholder="Author">
+    </div>
+    <br>
+    <div>
+      <label for="isbn"></label>
+      <input type="text" id="isbn" placeholder="ISBN#">
+    </div>
+    <br>
     <input type="submit" value="Add">
-  </form> 
+   </form>
 <script src="index.js"></script>
 </body>
 </html>
-
