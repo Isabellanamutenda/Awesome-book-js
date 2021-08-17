@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://isabellanamutenda.github.io/Awesome-book-js/)
 
 
 
