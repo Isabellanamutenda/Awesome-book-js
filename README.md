@@ -34,6 +34,7 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+<<<<<<< HEAD
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
@@ -42,3 +43,8 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [Microverse](https://www.microverse.org/) licensed.
+=======
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+>>>>>>> dec4bc9c8e1c6826ad86e3dd3d5a6feae4c0f5db
