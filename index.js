@@ -12,12 +12,12 @@
       const StoredBooks = [
         {
           title: 'Lorem ipsum',
-          author: Testeroo Testyy,
+          author: Testeroo, Testyy,
           isbn: '5474746',
         },
         {
           title: 'Second book',
-          author: Testeroo Testyy,
+          author: Testeroo. Testyy,
           isbn: '8765335',
         }
       ];
