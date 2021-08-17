@@ -1,58 +1,44 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# AWESOME-BOOK-JS
 
-# My Portfolio
 
-> The Portfolio Website is my personal Portfolio, basically the range of my investments through my training in Microverse. My Portfolio website is in both Mobile and Desktop versions.
-
-![screenshot](image/short.png)
-
-This Website page contains three sections. First section, the "Header" is simply an introduction. Second section is were you find Most of the Project done so far. Third section is about me, were to find me on Social media, and a contact form is provided in this section. My Portfolio has a popup interactions, all elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
-This Website is more responsive with Iphone 6/7/8/plus or IphoneX at the moment 
+> In this project, we will build a basic website that allows users to add/remove books from a library list of books. We will achieve that by using JavaScript objects and arrays. 
 
 ## Built With
 
-- HTML
-- CSS
-- Js
+- HTML5, 
+- CSS3 
+- JS-DOM
 
 ## Live Demo
-- [Live Demo Link](https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html)
 
-## Getting Started
-To get a local copy up and running follow these simple example steps.
-
-- You can clone this repo by typing git clone `https://github.com/OLIPLICHE/My-Portfolio.git` on your terminal
-- Type cd `My-Portfolio` to access the project on the terminal
+[Live Demo Link](https://isabellanamutenda.github.io/Awesome-book-js/)
 
 
-### Prerequisites
-- Text editor
-- Git
-- Html
-- CSS
-- Js
 
-## Authors
-👤 **Olipliche Mavoungou Paka**
-- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olipliche-paka-mavoungou/)
+## Author
 
-👤 **Yannick-Noel AKA**
-- GitHub: [@githubhandle](https://github.com/codecaiine)
+👤 **Isabella Namutenda**
 
-👤 **Ellis Ng'ona**
-- GitHub: [@githubhandle](https://github.com/mwanawabangona)
+- GitHub: [https://github.com/Isabellanamutenda)
 
-## 🤝⭐️ Contributing
+
+👤 **Olipliche Paka**
+
+- GitHub: [https://github.com/OLIPLICHE)
+
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/OLIPLICHE/My-Portfolio/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [Microverse](https://www.microverse.org/) licensed.
