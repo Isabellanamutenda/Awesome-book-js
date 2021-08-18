@@ -1,5 +1,4 @@
 {
-  "no-use-before-define": ["error", {"functions": false, "classes": false}],
   "env": {
     "browser": true,
     "es6": true,
