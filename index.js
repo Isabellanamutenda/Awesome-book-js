@@ -9,19 +9,7 @@ class Book {
 
 class UI {
   static displayBooks() {
-    const StoredBooks = [
-      {
-        title: 'Lorem ipsum',
-        author: 'Testeroo, Testyy',
-        isbn: '3637373',
-      },
-      {
-        title: 'Second book',
-        author: 'Testeroo Testyy',
-        isbn: '3633637',
-      },
-    ];
-    const books = StoredBooks;
+    const books = Store.getBooks();
     books.forEach((book) => UI.addBookToList(book));
   }
 
@@ -51,6 +39,34 @@ class UI {
   }
 }
 
+class Store {
+  static getBooks() {
+    let books;
+    if (localStorage.getItem('books') === null) {
+      books = [];
+    } else {
+      books = JSON.parse(localStorage.getItem('books'));
+    }
+    return books;
+  }
+
+  static addBook(book) {
+    const books = Store.getBooks();
+    books.push(book);
+    localStorage.setItem('books', JSON.stringify(books));
+  }
+
+  static removeBook(isbn) {
+    const books = Store.getBooks();
+    books.forEach((book, index) => {
+      if (book.isbn === isbn) {
+        books.splice(index, 1);
+      }
+    });
+    localStorage.setItem('books', JSON.stringify(books));
+  }
+}
+
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 document.querySelector('#book-form').addEventListener('submit', (e) => {
@@ -60,9 +76,11 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
   const isbn = document.querySelector('#isbn').value;
   const book = new Book(title, author, isbn);
   UI.addBookToList(book);
+  Store.addBook(book);
   UI.clearFields();
 });
 
 document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
+  Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
