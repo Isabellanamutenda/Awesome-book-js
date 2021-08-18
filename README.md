@@ -1,7 +1,7 @@
 # AWESOME-BOOK-JS
 
 
-> In this project, we will build a basic website that allows users to add/remove books from a library list of books. We will achieve that by using JavaScript objects and arrays. 
+> In this project, we will build a basic website that allows users to add/remove books from a library list of books. We will achieve that by using JavaScript  class, objects and arrays. 
 
 ## Built With
 
