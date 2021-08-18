@@ -1,4 +1,5 @@
 {
+  "no-use-before-define": ["error", { "variables": false }],
   "env": {
     "browser": true,
     "es6": true,
