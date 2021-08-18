@@ -8,19 +8,37 @@
     <title>Awesome Books</title>
 </head>
 <body>
-  <h1>Awesome Books</h1>
-  <div id="booklist"></div>
-  <form id="form">
-    <label for="title"></label><br>
-    <input type="text" id="title" name="title" placeholder="Title"><br>
-    <label for="author"></label><br>
-    <input type="text" id="author" name="author" placeholder="Author"><br><br>
-    <button type="button" id="add">Add</button>
-  </form>
-
-  <script src="index.js"></script>
+  <h1>Awesome books</h1> <br> <br>
+  <form action="" id="book-form">
+    <div>
+      <label for="title"></label>
+      <input type="text" id="title" placeholder="Tittle" class="form-control">
+    </div>
+    <br>
+    <div>
+      <label for="author"></label>
+      <input type="text" id="author" placeholder="Author" class="form-control">
+    </div>
+    <br>
+    <div>
+      <label for="isbn"></label>
+      <input type="text" id="isbn" placeholder="ID" class="form-control">
+    </div>
+    <br>
+    <input type="submit" value="Add Book" class="btn">
+   </form>
+   <br><br>
+   <table class="table table-striped">
+    <thead>
+      <tr class="t-raw">
+        <th>Title</th>
+        <th>Author</th>
+        <th>ID</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list" class="bookList"></tbody>
+  </table> <br>
+ <script src="index.js"></script> 
 </body>
 </html>
-
-
-
