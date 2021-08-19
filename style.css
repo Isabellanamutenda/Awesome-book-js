@@ -17,8 +17,8 @@
   font-size: 15px;
 }
 
-
-.right > a, .nav-bar > a {
+.right > a, 
+.nav-bar > a {
   margin-right: 40px;
   cursor: pointer;
 }
