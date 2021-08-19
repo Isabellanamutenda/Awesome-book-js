@@ -2,6 +2,23 @@
   background-color: #fff;
 } */
 
+.nav-bar {
+  display: flex;
+  flex-flow: row;
+  height: 40px;
+  justify-content: space-around;
+  font-size: 1.5em;
+  border: 4px solid black;
+}
+
+/* .right > a, .nav-bar {
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+} */
+
 h1,
 h2 {
   font-size: 30px;
@@ -61,4 +78,22 @@ form {
   padding: 2px 8px;
   box-shadow: 2px 2px 0 black;
   margin-right: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.form-control {
+  border: solid 2px black;
+}
+
+footer {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  height: 50px;
+  bottom: 0;
+  width: 98%;
+  background-color: #fff;
+  color: black;
+  border: solid 4px black;
 }
