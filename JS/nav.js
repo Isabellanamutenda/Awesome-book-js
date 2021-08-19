@@ -8,7 +8,7 @@ show = (section) => {
     }
   }
 };
-  
+
 document.addEventListener('DOMContentLoaded', () => {
   const { DateTime } = luxon;
   const parent = document.getElementById('date');
