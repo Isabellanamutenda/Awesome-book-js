@@ -10,20 +10,60 @@
 <body>
 
   <!-- navbar -->
-  <section class="nav-section">
     <nav class="nav-bar">
-      <!-- <div class="right">
-      <ul>
-        <li>list</li>
-        <li>Add Book</li>
-        <li>Contact</li>
-      </ul>
-    </div> -->
+      <a onclick="show(s1)"> Awesome Books</a>
+      <div class="right">
+        <a onclick="show(s1)">List  |</a>
+        <a onclick="show(s2)">Add Book  |</a>
+        <a onclick="show(s3)">Contact</a>
+    </div>
+    <div class="date">Aug 19, 2021, 4:32 PM</div>
     </nav>
+
+  <section id="s1" class="invisible">
+    <h2>All Awesome Books</h2>
+    <div id="books">
+      <h2 id="count">total number of books</h2>
+    </div>
+
   </section>
 
-  <!-- book list -->
-  <section class="books-list">
+  <section id="s2" class="visible">
+    <div class="add-sec">
+      <h1>add a new book</h1>
+      <form action="" id="book-form">
+        <div>
+          <label for="title"></label><br>
+          <input type="text" id="title" placeholder="Tittle" class="form-control"><br>
+        </div>
+        <div>
+          <label for="author"></label><br>
+          <input type="text" id="author" placeholder="Author" class="form-control">
+        </div>
+        <div>
+          <label for="isbn"></label><br>
+          <input type="text" id="isbn" placeholder="ID" class="form-control">
+        </div>
+        <input type="submit" value="Add" class="btn">
+       </form>
+    </div>
+  </section>
+
+  <section id="s3" class="invisible">
+    <h1>Contact Information</h1>
+    <div class="contact-info">
+      <p>Do have any questions or you just want to say "Hello"?<br>
+      You can reach out to us! <br></p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone-number: 0043586534422</li>
+        <li>Our address: Streetname 22, 84603 City, Country</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <!-- <section class="books-list">
     <h1>Awesome books</h1>
     <table class="table table-striped">
       <thead>
@@ -38,30 +78,30 @@
     </table>
   </section>
 
-  <!-- add book -->
+
   <section class="addBook-section">
     <h2>Add a new book</h2>
     <form action="" id="book-form">
       <div>
-        <label for="title"></label>
-        <input type="text" id="title" placeholder="Tittle" class="form-control">
+        <label for="title"></label><br>
+        <input type="text" id="title" placeholder="Tittle" class="form-control"><br>
       </div>
       <div>
-        <label for="author"></label>
+        <label for="author"></label><br>
         <input type="text" id="author" placeholder="Author" class="form-control">
       </div>
       <div>
-        <label for="isbn"></label>
+        <label for="isbn"></label><br>
         <input type="text" id="isbn" placeholder="ID" class="form-control">
       </div>
       <input type="submit" value="Add" class="btn">
      </form>
   </section>
 
-  <!-- contact information -->
+
   <section class="contact-section">
     <h2>Contact information</h2>
-    <div>
+    <div class="contact-info">
       <p>Do have any questions or you just want to say "Hello"?<br>
       You can reach out to us!</p>
       <ul>
@@ -72,8 +112,9 @@
     </div>
   </section>
   <footer>Copyright</footer>
-  </div>
- <script src="index.js"></script> 
+  </div> -->
+ <script src="JS/index.js"></script>
+ <script src="JS/nav.js"></script> 
 </body>
 </html>
 

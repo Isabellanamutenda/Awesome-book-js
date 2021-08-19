@@ -2,6 +2,10 @@
   background-color: #fff;
 } */
 
+.nav-section {
+  margin-left: 50px;
+}
+
 .nav-bar {
   display: flex;
   flex-flow: row;
@@ -9,22 +13,34 @@
   justify-content: space-around;
   font-size: 1.5em;
   border: 4px solid black;
+  margin-bottom: 50px;
 }
 
-/* .right > a, .nav-bar {
-  margin-right: 10px;
-  cursor: pointer;
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-} */
+.date {
+  margin-top: 50px;
+  font-size: 15px;
+}
 
-h1,
+
+.right > a, .nav-bar > a {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
 h2 {
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 hr {
@@ -38,12 +54,22 @@ hr {
   background-color: black;
 }
 
+.contact-info {
+  /* margin: auto; */
+  margin-top: 50px;
+  font-size: 1.5em;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .table-striped {
   border: solid 5px black;
   width: 50%;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 tr {
@@ -80,6 +106,59 @@ form {
   margin-right: 0;
   list-style: none;
   text-decoration: none;
+}
+
+#s1 {
+  transition: all 1.5s;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#s2 {
+  transition: all 1.5s;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#s3 {
+  transition: all 1.5s;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transform: translateX(2000px);
+  width: 100%;
+  margin: auto;
+}
+
+.add-sec {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#books {
+  border: 4px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 85px;
 }
 
 .form-control {
