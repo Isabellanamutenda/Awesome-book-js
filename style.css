@@ -11,11 +11,14 @@ h2 {
 }
 
 hr {
-  width: 300px;
+  display: block;
+  font-size: 30px;
+  width: 200px;
+  height: 2px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-  color: black;
+  background-color: black;
 }
 
 .table-striped {
@@ -48,4 +51,14 @@ form {
 
 .booklist {
   border: 4px solid black;
+}
+
+.btn {
+  position: relative;
+  margin-left: 135px;
+  background-color: white;
+  color: black;
+  padding: 2px 8px;
+  box-shadow: 2px 2px 0 black;
+  margin-right: 0;
 }
