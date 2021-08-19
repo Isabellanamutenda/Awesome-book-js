@@ -1,33 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Awesome Books</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Awesome Books</title>
 </head>
-
 <body>
-  <main>
-    <h1>Awesome Books</h1><br>
-    <div id="booklist" class="booklist border"></div>
-    <hr class="short-underline" />
-    <h2> Add a new Book</h2>
+  <h1>Awesome books</h1> <br> <br>
+  <table class="table table-striped">
+    <thead>
+      <tr class="t-raw">
+        <th>Title</th>
+        <th>Author</th>
+        <th>ID</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list" class="bookList"></tbody>
+  </table> <br> <br>
+  <hr>
+  <form action="" id="book-form">
     <div>
-     <form id="form">
-      <label for="title"></label><br>
-      <input type="text" class="border" id="title" name="title" placeholder="Title" required><br>
-      <label for="author"></label><br>
-      <input type="text" class="border" id="author" name="author" placeholder="Author" required><br><br>
-      <button type="button" class="add" id="add">Add</button>
-     </form>
+      <label for="title"></label>
+      <input type="text" id="title" placeholder="Tittle" class="form-control">
     </div>
-  </main>
-
-  <script src="index.js"></script>
+    <br>
+    <div>
+      <label for="author"></label>
+      <input type="text" id="author" placeholder="Author" class="form-control">
+    </div>
+    <br>
+    <div>
+      <label for="isbn"></label>
+      <input type="text" id="isbn" placeholder="ID" class="form-control">
+    </div>
+    <br>
+    <input type="submit" value="Add Book" class="btn">
+   </form>
+   <br><br>
+ <script src="index.js"></script> 
 </body>
-
 </html>
+
+
