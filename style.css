@@ -2,10 +2,6 @@
   background-color: #fff;
 } */
 
-.nav-section {
-  margin-left: 50px;
-}
-
 .nav-bar {
   display: flex;
   flex-flow: row;
