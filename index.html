@@ -8,50 +8,70 @@
     <title>Awesome Books</title>
 </head>
 <body>
-  <nav class="nav-bar">
-    <!-- <div class="right">
-    <ul>
-      <li>list</li>
-      <li>Add Book</li>
-      <li>Contact</li>
-    </ul>
-  </div> -->
-  </nav>
-  <h1>Awesome books</h1> <br> <br>
-  <table class="table table-striped">
-    <thead>
-      <tr class="t-raw">
-        <th>Title</th>
-        <th>Author</th>
-        <th>ID</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody id="book-list" class="bookList"></tbody>
-  </table> <br> <br>
-  <hr>
-  <br>
-  <form action="" id="book-form">
-    <div>
-      <label for="title"></label>
-      <input type="text" id="title" placeholder="Tittle" class="form-control">
-    </div>
-    <br>
-    <div>
-      <label for="author"></label>
-      <input type="text" id="author" placeholder="Author" class="form-control">
-    </div>
-    <br>
-    <div>
-      <label for="isbn"></label>
-      <input type="text" id="isbn" placeholder="ID" class="form-control">
-    </div>
-    <br>
 
-    <input type="submit" value="Add" class="btn">
-   </form>
-   <br><br>
-   <footer>Copyright</footer>
+  <!-- navbar -->
+  <section class="nav-section">
+    <nav class="nav-bar">
+      <!-- <div class="right">
+      <ul>
+        <li>list</li>
+        <li>Add Book</li>
+        <li>Contact</li>
+      </ul>
+    </div> -->
+    </nav>
+  </section>
+
+  <!-- book list -->
+  <section class="books-list">
+    <h1>Awesome books</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr class="t-raw">
+          <th>Title</th>
+          <th>Author</th>
+          <th>ID</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list" class="bookList"></tbody>
+    </table>
+  </section>
+
+  <!-- add book -->
+  <section class="addBook-section">
+    <h2>Add a new book</h2>
+    <form action="" id="book-form">
+      <div>
+        <label for="title"></label>
+        <input type="text" id="title" placeholder="Tittle" class="form-control">
+      </div>
+      <div>
+        <label for="author"></label>
+        <input type="text" id="author" placeholder="Author" class="form-control">
+      </div>
+      <div>
+        <label for="isbn"></label>
+        <input type="text" id="isbn" placeholder="ID" class="form-control">
+      </div>
+      <input type="submit" value="Add" class="btn">
+     </form>
+  </section>
+
+  <!-- contact information -->
+  <section class="contact-section">
+    <h2>Contact information</h2>
+    <div>
+      <p>Do have any questions or you just want to say "Hello"?<br>
+      You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone-number: 0043586534422</li>
+        <li>Our address: Streetname 22, 84603 City, Country</li>
+      </ul>
+    </div>
+  </section>
+  <footer>Copyright</footer>
   </div>
  <script src="index.js"></script> 
 </body>
