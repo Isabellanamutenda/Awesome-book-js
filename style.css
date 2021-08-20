@@ -7,16 +7,6 @@ body {
   width: 100%;
 }
 
-/* .nav-bar {
-  display: flex;
-  flex-flow: row;
-  height: 40px;
-  justify-content: space-around;
-  font-size: 1.5em;
-  border: 4px solid black;
-  margin-bottom: 50px;
-} */
-
 nav {
   font-size: 1.5em;
   height: 50px;
@@ -25,6 +15,7 @@ nav {
   justify-content: space-between;
   color: black;
   border: 4px solid black;
+  width: 98%;
 }
 
 .ulNav {
@@ -56,6 +47,10 @@ a:active {
 .date {
   margin-top: 50px;
   font-size: 15px;
+}
+
+.timeDiv {
+  padding-left: 84rem;
 }
 
 .right > a,
@@ -152,28 +147,18 @@ form {
 
 .contact-section {
   width: 100%;
-  margin-top: 50px;
 }
 
 #s1 {
   transition: all 1.5s;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
 }
 
 #s2 {
   transition: all 1.5s;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
 }
 
 #s3 {
   transition: all 1.5s;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
 }
 
 .visible {
@@ -181,16 +166,15 @@ form {
   opacity: 1;
   width: 100%;
   margin: auto;
-  position: absolute;
 }
 
 .invisible {
   visibility: hidden;
   opacity: 0;
+  margin: auto;
+  width: 100%;
   position: absolute;
   transform: translateX(2000px);
-  width: 100%;
-  margin: auto;
 }
 
 .add-sec {
@@ -222,9 +206,10 @@ form {
 
 footer {
   height: 50px;
-  width: 100%;
+  width: 98%;
   background-color: #fff;
   color: black;
   border: solid 4px black;
-  margin: 70px 12px 12px 0;
+  position: fixed;
+  bottom: 0;
 }
