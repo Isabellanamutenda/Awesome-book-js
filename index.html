@@ -8,20 +8,22 @@
   <title>Awesome Books</title>
 </head>
 <body>
-  <nav class="nav-bar navbar border">
-    <span>Awesome Books</span>
-    <ul class="ulNav">
-      <li class="border-right">
-        <a onclick="show(s1)">List |</a>
-      </li>
-      <li class="border-right">
-        <a onclick="show(s2)">Add Book |</a>
-      </li>
-      <li>
-        <a onclick="show(s3)">Contact</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="divNavbar">
+    <nav class="nav-bar navbar">
+      <span>Awesome Books</span>
+      <ul class="ulNav">
+        <li class="border-right">
+          <a onclick="show(s1)">List |</a>
+        </li>
+        <li class="border-right">
+          <a onclick="show(s2)">Add Book |</a>
+        </li>
+        <li>
+          <a onclick="show(s3)">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="timeDiv">
     <span id="currentTime"></span>
   </div>
@@ -50,7 +52,7 @@
         <label for="author"></label><br>
         <input type="text" id="author" placeholder="Author" class="form-control">
       </div>
-      <div>
+      <div class="hiddenDiv">
         <label for="isbn"></label><br>
         <input type="text" id="isbn" placeholder="ID" class="form-control">
       </div>

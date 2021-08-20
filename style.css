@@ -3,10 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-.nav-section {
-  width: 100%;
-}
-
 nav {
   font-size: 1.5em;
   height: 50px;
@@ -50,13 +46,16 @@ a:active {
 }
 
 .timeDiv {
-  padding-left: 54rem;
+  padding-left: 85rem;
+  margin-top: -34px;
 }
 
-.right > a,
-.nav-bar > a {
-  margin-right: 40px;
-  cursor: pointer;
+.t-raw {
+  display: none;
+}
+
+.hiddenDiv {
+  display: none;
 }
 
 .books-list {
