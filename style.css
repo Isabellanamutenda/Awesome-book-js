@@ -1,8 +1,13 @@
-/* body {
-  background-color: #fff;
-} */
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
-.nav-bar {
+.nav-section {
+  width: 100%;
+}
+
+/* .nav-bar {
   display: flex;
   flex-flow: row;
   height: 40px;
@@ -10,6 +15,42 @@
   font-size: 1.5em;
   border: 4px solid black;
   margin-bottom: 50px;
+} */
+
+nav {
+  font-size: 1.5em;
+  height: 50px;
+  margin: 0 5px 30px 5px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  border: 4px solid black;
+}
+
+.ulNav {
+  display: flex;
+  list-style: none;
+  margin: 5px 0;
+  line-height: 44px;
+  gap: 25px;
+}
+
+.ulNav .li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+span {
+  line-height: 54px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  font-weight: bold;
 }
 
 .date {
@@ -23,12 +64,21 @@
   cursor: pointer;
 }
 
+.books-list {
+  width: 100%
+}
+
 h1 {
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.addBook-section {
+  margin-top: 30px;
+  width: 100%;
 }
 
 h2 {
@@ -36,7 +86,7 @@ h2 {
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
-  margin-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 hr {
@@ -51,7 +101,6 @@ hr {
 }
 
 .contact-info {
-  /* margin: auto; */
   margin-top: 50px;
   font-size: 1.5em;
   align-items: center;
@@ -61,11 +110,8 @@ hr {
 
 .table-striped {
   border: solid 5px black;
-  width: 50%;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 tr {
@@ -83,9 +129,9 @@ tr:nth-of-type(odd) {
 }
 
 form {
-  width: 11%;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .booklist {
@@ -102,6 +148,11 @@ form {
   margin-right: 0;
   list-style: none;
   text-decoration: none;
+}
+
+.contact-section {
+  width: 100%;
+  margin-top: 50px;
 }
 
 #s1 {
@@ -157,18 +208,23 @@ form {
   margin-top: 85px;
 }
 
+.contact-info {
+  font-size: 1.5em;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form-control {
   border: solid 2px black;
 }
 
 footer {
-  position: fixed;
-  left: 10px;
-  right: 10px;
   height: 50px;
-  bottom: 0;
-  width: 98%;
+  width: 100%;
   background-color: #fff;
   color: black;
   border: solid 4px black;
+  margin: 70px 12px 12px 0;
 }

@@ -9,61 +9,27 @@
 </head>
 <body>
 
-  <!-- navbar -->
-    <nav class="nav-bar">
-      <a onclick="show(s1)"> Awesome Books</a>
-      <div class="right">
-        <a onclick="show(s1)">List  |</a>
-        <a onclick="show(s2)">Add Book  |</a>
-        <a onclick="show(s3)">Contact</a>
-    </div>
-    <div class="date">Aug 19, 2021, 4:32 PM</div>
-    </nav>
-
-  <section id="s1" class="invisible">
-    <h2>All Awesome Books</h2>
-    <div id="books">
-      <h2 id="count">total number of books</h2>
-    </div>
-
-  </section>
-
-  <section id="s2" class="visible">
-    <div class="add-sec">
-      <h1>add a new book</h1>
-      <form action="" id="book-form">
-        <div>
-          <label for="title"></label><br>
-          <input type="text" id="title" placeholder="Tittle" class="form-control"><br>
-        </div>
-        <div>
-          <label for="author"></label><br>
-          <input type="text" id="author" placeholder="Author" class="form-control">
-        </div>
-        <div>
-          <label for="isbn"></label><br>
-          <input type="text" id="isbn" placeholder="ID" class="form-control">
-        </div>
-        <input type="submit" value="Add" class="btn">
-       </form>
-    </div>
-  </section>
-
-  <section id="s3" class="invisible">
-    <h1>Contact Information</h1>
-    <div class="contact-info">
-      <p>Do have any questions or you just want to say "Hello"?<br>
-      You can reach out to us! <br></p>
-      <ul>
-        <li>Our e-mail: mail@mail.com</li>
-        <li>Our phone-number: 0043586534422</li>
-        <li>Our address: Streetname 22, 84603 City, Country</li>
+  
+    <nav class="nav-bar navbar border">
+      <span>Awesome Books</span>
+      <ul class="ulNav">
+        <li class="border-right">
+          <a onclick="show(s1)">List |</a>
+        </li>
+        <li class="border-right">
+          <a onclick="show(s2)">Add Book |</a>
+        </li>
+        <li>
+          <a onclick="show(s3)">Contact</a>
+        </li>
       </ul>
+    </nav>
+    <div>
+      <span id="datetime"></span>
     </div>
-  </section>
 
-  <footer>Copyright</footer>
-  <!-- <section class="books-list">
+ 
+  <section class="books-list" id="books-list">
     <h1>Awesome books</h1>
     <table class="table table-striped">
       <thead>
@@ -79,7 +45,7 @@
   </section>
 
 
-  <section class="addBook-section">
+  <section class="addBook-section" id="addBook-section">
     <h2>Add a new book</h2>
     <form action="" id="book-form">
       <div>
@@ -99,7 +65,7 @@
   </section>
 
 
-  <section class="contact-section">
+  <section class="contact-section" id="contact-section">
     <h2>Contact information</h2>
     <div class="contact-info">
       <p>Do have any questions or you just want to say "Hello"?<br>
@@ -111,10 +77,12 @@
       </ul>
     </div>
   </section>
+
   <footer>Copyright</footer>
-  </div> -->
- <script src="JS/index.js"></script>
- <script src="JS/nav.js"></script> 
+  </div>
+ <script src="./JS/index.js"></script>
+ <script src="./Js/luxon.js"></script>
+ <script src="./JS/nav.js"></script> 
 </body>
 </html>
 
