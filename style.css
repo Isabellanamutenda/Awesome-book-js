@@ -50,7 +50,7 @@ a:active {
 }
 
 .timeDiv {
-  padding-left: 84rem;
+  padding-left: 54rem;
 }
 
 .right > a,
@@ -99,8 +99,7 @@ hr {
   margin-top: 50px;
   font-size: 1.5em;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .table-striped {
@@ -151,14 +150,26 @@ form {
 
 #s1 {
   transition: all 1.5s;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  z-index: 1;
 }
 
 #s2 {
   transition: all 1.5s;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  z-index: 1;
 }
 
 #s3 {
   transition: all 1.5s;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  z-index: 1;
 }
 
 .visible {
@@ -166,6 +177,7 @@ form {
   opacity: 1;
   width: 100%;
   margin: auto;
+  position: absolute;
 }
 
 .invisible {
@@ -190,14 +202,6 @@ form {
   width: 50%;
   margin: auto;
   margin-top: 85px;
-}
-
-.contact-info {
-  font-size: 1.5em;
-  padding: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .form-control {
