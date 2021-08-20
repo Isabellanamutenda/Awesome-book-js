@@ -60,7 +60,7 @@ a:active {
 }
 
 .books-list {
-  width: 100%
+  width: 100%;
 }
 
 h1 {
@@ -81,7 +81,6 @@ h2 {
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 0px;
 }
 
 hr {
@@ -96,7 +95,6 @@ hr {
 }
 
 .contact-info {
-  margin-top: 50px;
   font-size: 1.5em;
   align-items: center;
   margin: auto;
